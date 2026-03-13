@@ -17,6 +17,15 @@ public class Romain {
 		System.out.println(prendreParole() + "\"" + texte + "\"");
 	}
 
+	public void recevoirCoup(forceCoup) {
+		force -= forceCoup;
+		if (force < 1) {
+			System.out.println(prendreParole() + "J'abandonne !");
+		}else {
+			System.out.println("Aïe");
+		}
+	}
+
 	private String prendreParole() {
 		// TODO Auto-generated method stub
 		return "Le romain " + nom + " : ";
