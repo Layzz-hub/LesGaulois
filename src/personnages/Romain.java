@@ -17,11 +17,11 @@ public class Romain {
 		System.out.println(prendreParole() + "\"" + texte + "\"");
 	}
 
-	public void recevoirCoup(forceCoup) {
+	public void recevoirCoup(int forceCoup) {
 		force -= forceCoup;
 		if (force < 1) {
 			System.out.println(prendreParole() + "J'abandonne !");
-		}else {
+		} else {
 			System.out.println("Aïe");
 		}
 	}
