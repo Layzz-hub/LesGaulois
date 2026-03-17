@@ -21,5 +21,10 @@ public class TestGaulois {
 			asterix.frapper(minus);
 		}
 		panoramix.fabriquerPotion(4, 3);
+		panoramix.booster(obelix);
+		panoramix.booster(asterix);
+		for (int i = 0; i < 3; i++) {
+			asterix.frapper(brutus);
+		}
 	}
 }

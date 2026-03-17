@@ -3,7 +3,7 @@ package personnages;
 public class Druide {
 	private String nom;
 	private int force;
-	private Chaudron chaudron;
+	private Chaudron chaudron = new Chaudron();
 
 	public Druide(String nom, int force) {
 		this.nom = nom;
